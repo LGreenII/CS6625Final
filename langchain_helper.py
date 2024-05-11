@@ -1,8 +1,6 @@
 import openai
 import os
 from dotenv import load_dotenv
-from secret_key import openai_key
-from secret_key import google_palm_key
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_community.embeddings.huggingface import HuggingFaceInstructEmbeddings
