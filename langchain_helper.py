@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_community.embeddings.huggingface import HuggingFaceInstructEmbeddings
+from InstructorEmbedding import INSTRUCTOR
 from langchain_community.vectorstores.faiss import FAISS
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
